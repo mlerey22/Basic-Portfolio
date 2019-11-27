@@ -5,6 +5,7 @@ body {
     display: block;
     align-items: center;
     flex-wrap: nowrap;
+    overflow: hidden;
 }
 .Header {
     display: block;
@@ -37,6 +38,36 @@ body {
     float: right;
 }
 
+
 .About_me {
     display: block;
+    position: absolute;
+    height: 80%;
+    width: 75%;
+    padding: 20px;
+    background-color: whitesmoke;
+    float: left;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
+
+img {
+    float: left;
+    margin: 2%;
+    width: 20%;
+    max-width: 400px;
+    height: auto;
+}
+
+.h2 {
+
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
