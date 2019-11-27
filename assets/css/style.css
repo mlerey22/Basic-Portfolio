@@ -1,8 +1,42 @@
+body {
+    background-color: grey;
+}
+.Header {
+    display: block;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.Header {
+    display: block;
+    position: relative;
+    height: 40px;
+    padding: 10px;
+    font-size: 18x;
+    line-height: 2;
+    color: grey;
+    background-color: hsla(0, 0%, 100%, .7);
+}
+
 .Banner_Name {
-    float: left;
-    height: 150%;
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left:15%;
+    height: 100%;
+    width: 25%;
+    color: white;
+    background-color: turquoise;
+    text-align: center;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
 }
 
 .Header_Item {
     float: right;
+}
+
+.About_me {
+    display: block;
 }
