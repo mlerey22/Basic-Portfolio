@@ -65,22 +65,24 @@ li a {
 .About_me {
     display: block;
     position: absolute;
-    height: 80%;
-    width: 75%;
     padding: 20px;
+    margin: 5%;
     background-color: hsla(0, 0%, 100%, .8);
-    float: left;
-    font-size: 25px;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    font-size: 18px;
+
+}
+
+.abtmes {
+    display: block;
+    position: absolute
 
 }
 
 img {
     float: left;
     margin: 2%;
-    width: 20%;
+    margin-top: 1%;
+    width: 10%;
     max-width: 400px;
     height: auto;
 }
@@ -89,6 +91,12 @@ img {
     display: block;
     color: teal;
     line-height: 1;
+}
+
+.line {
+    display: block;
+    height: 4px;
+    background-color: darkgrey;
 }
 
 .clearfix::after {
