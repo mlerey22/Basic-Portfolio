@@ -71,7 +71,8 @@ li a {
 
 .abtmes {
     display: block;
-    position: absolute
+    position: absolute;
+    height: 960px; 
 
 }
 
@@ -82,6 +83,29 @@ img {
     width: 15%;
     max-width: 400px;
     height: auto;
+}
+
+.imgs {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+
+}
+
+.tags {
+    display: inline-block;
+    position: absolute;
+    width: 210px;
+    height: 35px;
+    left: 0;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    left: 10px;
+    bottom:25px;
+    
+
+
 }
 
 .h2 {
