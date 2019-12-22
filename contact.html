@@ -1,41 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <title>Bootstrap Emily Reynolds</title>
 </head>
+
 <body>
-    <div>
-        <header class="Header" role="banner">
-            <a class="Banner_Name">Emily Reynolds</a>
-                <ul>
-                    <li><a class="Header_Item" href="index.html">About</a></li>
-                    <li><a class="Header_Item" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="Header_Item" href="contact.html">Contact</a></li>
-                </ul>
-        </header>
-    </div> 
+    <div class="container mt-3">
+
+        <nav class="row navi justify-content-center">
+
+            <!-- <div class=" col-12 justify-content-center w-90"> -->
+            <div class="col-12 col-md-6 ">
+                <a class="col-12 col-md-10 order-md-12 " id="banner"
+                    href="index.html">Emily Reynolds</a>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="row mt-3">
+                    <a class="col-1" href="#"></a>
+
+                <a class="navis col-3 order-10 " href="index.html">About</a>
+
+                <a class="navis col-3 order-11" href="portfolio.html">Portfolio</a>
+
+                <a class="navis col-3 order-12" href="contact.html">Contact</a>
+            </div>
+        </div>
+    <!-- </div> -->
+   </nav> 
+
+
     
-    <section class="About_me">
-        <h2 class="h2">Contact</h2>
-        <div class="line"></div> 
-        <div class="contactfrm">
-            <form action="mailto:emily.reynolds504@gmail.com">
-                Name:<br>
-                <input type="text" name="Name"><br>
-                Email:<br>
-                <input type="text" name="Email"><br>
-                Message:<br>
-                <textarea name="Message" id="Message" cols="30" rows="10"></textarea><br>
-                <input type="submit" value="submit">
+    <main class="abouts">
+        
+           
+                <div class="m-3">
+
+                    <h4 class="col-12 col-md-4 order-1 m-md-4 ml-xl-4 font-weight-bold">Contact Me</h4>
                 
-            </form>
+                <div class="line col-12 justify-content-center">
+
+                </div>
+            </div>
+                
+        <div class="row justify-content-center contact">
+            <div class="col-10 d-inline-block justify-content-center ml-5">
+                <form>
+                    <div class="form-group">
+                        <label for="contactFormName">Name</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactFormEmail">Email address</label>
+                        <input type="email" class="form-control" placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                    <a href="emailto:emily.reynolds504@gmail.com" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Submit</a>
+                    </div>
+                </form>
+            </div>
+
+        
+        </div>
+    </main>
+    <footer class="footer">
+
+        <div class="container">
+            <span>Copyright &copy</span>
+
 
         </div>
-         
-    </section>
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/ulg/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
